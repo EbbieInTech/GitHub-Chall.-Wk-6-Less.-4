@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orchids</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Dancing+Script&family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/505/original/849250-flowers-orchid-background-bloom-petals.jpg?1624551220);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: #e66465;
+      font-family: "Cormorant Unicase", serif;
+      font-weight: bold;
+      color: #01076c;
+    }
+    .flower {
+      display: block;
+      margin: 0 350px auto;
+      text-align: center;
+      padding: 17px 30px;
+      border: 15px inset #b25089;
+      border-radius: 10px;
+      max-width: 100%;
+      background: linear-gradient(179.4deg, #e9e5da, #c471ed, #658ccf);
+    }
+    .style11 {
+      background-color: #5e2a48;
+      border-radius: 20px;
+      background: linear-gradient(179.4deg, #e9e5da, #c471ed, #658ccf);
+      border: 0;
+      height: 5px;
+      background-image: -webkit-linear-gradient(
+        left,
+        #f0f0f0,
+        #c471ed,
+        #658ccf
+      );
+      background-image: -moz-linear-gradient(left, #f0f0f0, #c471ed, #658ccf);
+      background-image: -ms-linear-gradient(left, #f0f0f0, #c471ed, #658ccf);
+      background-image: -o-linear-gradient(left, #f0f0f0, #c471ed, #658ccf);
+    }
+
+    h1 {
+      font-size: 50px;
+      background: #cfbac4;
+      background: -webkit-radial-gradient(
+        circle farthest-side at center center,
+        #cfbac4 11%,
+        #cf74a1 50%,
+        #01076c 65%
+      );
+      background: -moz-radial-gradient(
+        circle farthest-side at center center,
+        #cfbac4 11%,
+        #cf74a1 50%,
+        #01076c 65%
+      );
+      background: radial-gradient(
+        circle farthest-side at center center,
+        #cfbac4 11%,
+        #cf74a1 50%,
+        #01076c 65%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .pink {
+      border-radius: 5px;
+    }
+    span.type {
+      color: #658ccf;
+      font-size: 25px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 35px;
+      background: #cf7cae;
+      background: -webkit-radial-gradient(
+        circle farthest-side at center center,
+        #cf7cae 11%,
+        #01076c 65%
+      );
+      background: -moz-radial-gradient(
+        circle farthest-side at center center,
+        #cf7cae 11%,
+        #01076c 65%
+      );
+      background: radial-gradient(
+        circle farthest-side at center center,
+        #cf7cae 11%,
+        #01076c 65%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    ul {
+      padding: 0;
+      font-family: "Pattaya", sans-serif;
+      font-size: 18px;
+      color: rgb(83, 120, 149) 100%;
+      text-decoration: none;
+      list-style-type: none;
+      text-align: center;
+      padding: 10px 0;
+      transition: all 200ms ease-in-out;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    li {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    p {
+      font-size: 22px;
+      line-height: normal;
+    }
+    .orchids {
+      background: #1c1713;
+      font-family: "Pattaya", sans-serif;
+      font-size: 15px;
+      border-radius: 25px;
+      border: 10px inset #b25089;
+      display: block;
+      margin: 0 auto 15px auto;
+      padding: 10px;
+      transition: all 300ms ease-in-out;
+      box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    }
+    .join {
+      background: #1c1713;
+      font-family: "Pattaya", sans-serif;
+      font-size: 12px;
+      border-radius: 18px;
+      border: 5px inset #b25089;
+      display: block;
+      margin: 0 auto 15px auto;
+      padding: 10px;
+      transition: all 300ms ease-in-out;
+      color: blueviolet;
+      box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    }
+    button:hover {
+      background: #dab3c6;
+      color: #b25089;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div class="flower">
+      <h1>
+        My Favorite Flowers:
+        <br />
+        Orchids!!
+      </h1>
+      <br />
+      <img
+        class="pink"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/593/original/orchid-flowers-ii-pink-natalie-kinnear.jpg?1624638875"
+        alt="Pink Orchid"
+        width="100%"
+      />
+      <br />
+      <p>
+        The <span class="type">Orchidaceae</span> are a diverse and widespread
+        family of flowering plants, with blooms that are often colourful and
+        fragrant, commonly known as the orchid family. Along with the
+        <span class="type">Asteraceae</span>, they are one of the two largest
+        families of flowering plants.
+        <a href="https://en.wikipedia.org/wiki/Orchidaceae" target="_blank">
+          Wikipedia
+        </a>
+      </p>
+      <br />
+      <hr class="style11" />
+      <br />
+      <p>
+        I love orchids for their uniqueness! Many of the species are
+        otherworldly! I have loved orchids since I was a teenager and though I
+        have personally only owned two types(tough to take care of). I still
+        admire their beauty!
+      </p>
+      <br />
+      <hr class="style11" />
+      <br />
+      <h2>Three of the Most Unique Orchids</h2>
+      <ul>
+        <li>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/494/original/13952835481_cd439e88d2_b.jpg?1624545014"
+            alt="Ballerina Orchid"
+            width="175"
+            height="275"
+          />
+          <br />
+          <a
+            href="https://en.wikipedia.org/wiki/Caladenia_melanema"
+            target="_blank"
+          >
+            Ballerina Orchid
+          </a>
+        </li>
+        <li>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/496/original/2949803676_1bd7f4718a_c.jpg?1624545039"
+            alt="White Egret Orchid"
+            width="275"
+            height="175"
+          />
+          <br />
+          <a
+            href="https://en.wikipedia.org/wiki/Pecteilis_radiata"
+            target="_blank"
+          >
+            White Egret Orchid
+          </a>
+        </li>
+        <li>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/500/original/4-Unique-Orchid-Species_4.jpg?1624548354"
+            alt="Naked Man Orchid"
+            width="275"
+            height="175"
+          />
+          <br />
+          <a
+            href="https://en.wikipedia.org/wiki/Orchis_italica"
+            target="_blank"
+          >
+            Naked Man Orchid
+          </a>
+        </li>
+      </ul>
+      <br />
+      <p>
+        <strong>
+          If you want more information on where to buy your next orchids,
+          <em> click below!</em>
+        </strong>
+      </p>
+      <button class="orchids">
+        <a
+          href="https://orchidresourcecenter.com/the-best-places-to-buy-orchids/"
+          target="_blank"
+        >
+          Learn More About Orchids
+        </a>
+      </button>
+      <button class="join">Join my Orchid Group</button>
+      <br />
+      This page was built by
+      <a href="https://www.linkedin.com/in/eboniperkins/" target="_blank">
+        Eboni Perkins
+      </a>
+    </div>
+    <script>
+      function joinMe() {
+        let name = prompt("What is your name?");
+        let join = prompt("Want to join my Orchid Group?");
+        if (join === "yes" || join === "sure" || join === "ok") {
+          let email = prompt("What is your email address?");
+          alert(`Thanks ${name}, for joining my group!😁`);
+        } else {
+          alert(`Thanks for visiting my page.👋 Consider joining next time!`);
+        }
+      }
+      let join = document.querySelector(".join");
+      join.addEventListener("click", joinMe);
+    </script>
+  </body>
+</html>
